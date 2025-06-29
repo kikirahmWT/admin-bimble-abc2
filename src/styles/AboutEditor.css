@@ -1,0 +1,71 @@
+/* Grup form umum */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Label */
+.form-label {
+  display: block;
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.misi-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  gap: 1rem;
+}
+
+.add-button-wrapper {
+  margin-top: 1rem; /* atau ubah sesuai kebutuhan, misal 16px */
+}
+
+.btn-remove {
+  flex: 0 0 100px; /* atau gunakan 80px jika ingin lebih kecil lagi */
+  padding: 0.5rem 0.8rem;
+  background-color: var(--danger);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.btn-remove:hover {
+  background-color: #a30000;
+}
+
+.form-input {
+  flex: 3;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* Textarea yang menarik */
+.form-textarea {
+  width: 100%;
+  min-height: 500px; /* ✅ Tinggi lebih besar */
+  padding: 1rem;
+  font-size: 1rem;
+  border: 2px solid #ccd6dd;
+  border-radius: 8px;
+  background-color: #f9fcff;
+  color: #333;
+  font-family: "Segoe UI", sans-serif;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  resize: vertical;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.form-textarea:focus {
+  border-color: #4ba3e3;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(75, 163, 227, 0.3);
+}
